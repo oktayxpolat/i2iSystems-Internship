@@ -30,8 +30,6 @@ Then, you can pass to Quick start chapter. To run it 1521 port opened:
 docker run -d -p 49161:1521 wnameless/oracle-xe-11g-r2`
 ```
 
-![Docker and oracle xe](C:\Users\Thinkpad\Desktop\Docker and oracle xe.png)
-
 ### Oracle SQL Developer
 
 Go to https://www.oracle.com/tools/downloads/sqldev-downloads.html and download the Oracle SQL Developer version according to your system.
@@ -53,8 +51,6 @@ If you see some errors with add new connection windows and can't see objects:
 Go to Tools --> Preferences. Move your cursor over the window. When you see Oracle, click that dropdown and choose Windows. Then there OK and Cancel buttons at the bottom-right corner most probably you can't see. You have to click OK and you are done.
 
 Now you can test your connection with some queries!
-
-![Connection](C:\Users\Thinkpad\Desktop\Connection.png)
 
 
 
