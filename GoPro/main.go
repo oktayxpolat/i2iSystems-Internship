@@ -44,6 +44,7 @@ func main() {
 		total += sum
 		data := sum / (len(text) - 1)
 		newFile.WriteString(fmt.Sprintf("%d. Line: %d\n", i+1, data))
+		sum = 0
 	}
 	newFile.WriteString(fmt.Sprintf("\nTotal: %d", total/len(txtlines)))
 }
