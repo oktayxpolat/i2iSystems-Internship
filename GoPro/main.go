@@ -25,8 +25,13 @@ func main() {
 	}
 
 	file.Close()
-
+	newFile, err := os.Create("data.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer newFile.Close()
 	sum := 0
+	total := 0
 	for i := 0; i < len(txtlines); i++ {
 		text := strings.Split(txtlines[i], "\t")
 		for j := 0; j < len(text)-1; j++ {
@@ -36,6 +41,9 @@ func main() {
 			}
 			sum += num
 		}
-		fmt.Printf("%d. Line %d\n", i+1, sum/(len(text)-1))
+		total += sum
+		data := sum / (len(text) - 1)
+		newFile.WriteString(fmt.Sprintf("%d. Line: %d\n", i+1, data))
 	}
+	newFile.WriteString(fmt.Sprintf("\nTotal: %d", total/len(txtlines)))
 }
