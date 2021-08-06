@@ -1,0 +1,101 @@
+zeep.xsd.schema - DEBUG - Init schema document for None
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}string', <zeep.xsd.types.builtins.String object at 0x0000017EE0301550>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}boolean', <zeep.xsd.types.builtins.Boolean object at 0x0000017EE03015E0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}decimal', <zeep.xsd.types.builtins.Decimal object at 0x0000017EE0301670>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}float', <zeep.xsd.types.builtins.Float object at 0x0000017EE0301700>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}double', <zeep.xsd.types.builtins.Double object at 0x0000017EE0301790>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}duration', <zeep.xsd.types.builtins.Duration object at 0x0000017EE0301820>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}dateTime', <zeep.xsd.types.builtins.DateTime object at 0x0000017EE03018B0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}time', <zeep.xsd.types.builtins.Time object at 0x0000017EE0301940>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}date', <zeep.xsd.types.builtins.Date object at 0x0000017EE03019D0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}gYearMonth', <zeep.xsd.types.builtins.gYearMonth object at 0x0000017EE0301A60>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}gYear', <zeep.xsd.types.builtins.gYear object at 0x0000017EE0301AF0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}gMonthDay', <zeep.xsd.types.builtins.gMonthDay object at 0x0000017EE0301B80>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}gDay', <zeep.xsd.types.builtins.gDay object at 0x0000017EE0301C10>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}gMonth', <zeep.xsd.types.builtins.gMonth object at 0x0000017EE0301CA0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}hexBinary', <zeep.xsd.types.builtins.HexBinary object at 0x0000017EE0301D30>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}base64Binary', <zeep.xsd.types.builtins.Base64Binary object at 0x0000017EE0301DC0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}anyURI', <zeep.xsd.types.builtins.AnyURI object at 0x0000017EE0301E50>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}QName', <zeep.xsd.types.builtins.QName object at 0x0000017EE0301EE0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}NOTATION', <zeep.xsd.types.builtins.Notation object at 0x0000017EE0301F70>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}normalizedString', <zeep.xsd.types.builtins.NormalizedString object at 0x0000017EE030A040>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}token', <zeep.xsd.types.builtins.Token object at 0x0000017EE030A0D0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}language', <zeep.xsd.types.builtins.Language object at 0x0000017EE030A160>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}NMTOKEN', <zeep.xsd.types.builtins.NmToken object at 0x0000017EE030A1F0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}NMTOKENS', <zeep.xsd.types.builtins.NmTokens object at 0x0000017EE030A280>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}Name', <zeep.xsd.types.builtins.Name object at 0x0000017EE030A310>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}NCName', <zeep.xsd.types.builtins.NCName object at 0x0000017EE030A3A0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}ID', <zeep.xsd.types.builtins.ID object at 0x0000017EE030A430>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}IDREF', <zeep.xsd.types.builtins.IDREF object at 0x0000017EE030A4C0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}IDREFS', <zeep.xsd.types.builtins.IDREFS object at 0x0000017EE030A550>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}ENTITY', <zeep.xsd.types.builtins.Entity object at 0x0000017EE030A5E0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}ENTITIES', <zeep.xsd.types.builtins.Entities object at 0x0000017EE030A670>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}integer', <zeep.xsd.types.builtins.Integer object at 0x0000017EE030A700>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}nonPositiveInteger', <zeep.xsd.types.builtins.NonPositiveInteger object at 0x0000017EE030A790>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}negativeInteger', <zeep.xsd.types.builtins.NegativeInteger object at 0x0000017EE030A820>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}long', <zeep.xsd.types.builtins.Long object at 0x0000017EE030A8B0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}int', <zeep.xsd.types.builtins.Int object at 0x0000017EE030A940>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}short', <zeep.xsd.types.builtins.Short object at 0x0000017EE030A9D0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}byte', <zeep.xsd.types.builtins.Byte object at 0x0000017EE030AA60>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}nonNegativeInteger', <zeep.xsd.types.builtins.NonNegativeInteger object at 0x0000017EE030AAF0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}unsignedByte', <zeep.xsd.types.builtins.UnsignedByte object at 0x0000017EE030AB80>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}unsignedInt', <zeep.xsd.types.builtins.UnsignedInt object at 0x0000017EE030AC10>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}unsignedLong', <zeep.xsd.types.builtins.UnsignedLong object at 0x0000017EE030ACA0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}unsignedShort', <zeep.xsd.types.builtins.UnsignedShort object at 0x0000017EE030AD30>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}positiveInteger', <zeep.xsd.types.builtins.PositiveInteger object at 0x0000017EE030ADC0>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}anyType', <zeep.xsd.types.any.AnyType object at 0x0000017EE030AE50>)
+zeep.xsd.schema - DEBUG - register_type('{http://www.w3.org/2001/XMLSchema}anySimpleType', <zeep.xsd.types.simple.AnySimpleType object at 0x0000017EE030AEB0>)
+zeep.xsd.schema - DEBUG - register_element('{http://www.w3.org/2001/XMLSchema}schema', <zeep.xsd.elements.builtins.Schema object at 0x0000017EE030AF40>)
+zeep.xsd.schema - DEBUG - Add document with tns http://www.w3.org/2001/XMLSchema to schema 1644438754448
+zeep.transports - DEBUG - Loading remote data from: http://www.dneonline.com/calculator.asmx?wsdl
+urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.dneonline.com:80
+urllib3.connectionpool - DEBUG - http://www.dneonline.com:80 "GET /calculator.asmx?wsdl HTTP/1.1" 200 7880
+zeep.wsdl.wsdl - DEBUG - Creating definition for http://www.dneonline.com/calculator.asmx?wsdl
+zeep.xsd.schema - DEBUG - Init schema document for 'http://www.dneonline.com/calculator.asmx?wsdl'
+zeep.xsd.schema - DEBUG - Add document with tns http://tempuri.org/ to schema 1644438754448
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}Add', <Element(name='Add', type=<zeep.xsd.dynamic_types.Add object at 0x0000017EE030DB20>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}AddResponse', <Element(name='AddResponse', type=<zeep.xsd.dynamic_types.AddResponse object at 0x0000017EE030DEE0>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}Subtract', <Element(name='Subtract', type=<zeep.xsd.dynamic_types.Subtract object at 0x0000017EE033E100>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}SubtractResponse', <Element(name='SubtractResponse', type=<zeep.xsd.dynamic_types.SubtractResponse object at 0x0000017EE033E3D0>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}Multiply', <Element(name='Multiply', type=<zeep.xsd.dynamic_types.Multiply object at 0x0000017EE033E5B0>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}MultiplyResponse', <Element(name='MultiplyResponse', type=<zeep.xsd.dynamic_types.MultiplyResponse object at 0x0000017EE033E880>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}Divide', <Element(name='Divide', type=<zeep.xsd.dynamic_types.Divide object at 0x0000017EE033EA60>)>)
+zeep.xsd.schema - DEBUG - register_element('{http://tempuri.org/}DivideResponse', <Element(name='DivideResponse', type=<zeep.xsd.dynamic_types.DivideResponse object at 0x0000017EE033ED30>)>)
+zeep.xsd.schema - DEBUG - Resolving in schema <SchemaDocument(location='http://www.dneonline.com/calculator.asmx?wsdl', tns='http://tempuri.org/', is_empty=False)>
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}AddSoapIn
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}AddSoapOut
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}SubtractSoapIn
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}SubtractSoapOut
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}MultiplySoapIn
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}MultiplySoapOut
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}DivideSoapIn
+zeep.wsdl.wsdl - DEBUG - Adding message: {http://tempuri.org/}DivideSoapOut
+zeep.wsdl.wsdl - DEBUG - Adding port: {http://tempuri.org/}CalculatorSoap
+zeep.wsdl.wsdl - DEBUG - Adding binding: {http://tempuri.org/}CalculatorSoap
+zeep.wsdl.wsdl - DEBUG - Adding binding: {http://tempuri.org/}CalculatorSoap12
+zeep.wsdl.wsdl - DEBUG - Adding service: Calculator
+root - DEBUG - This will get logged to a file
+zeep.transports - DEBUG - HTTP Post to http://www.dneonline.com/calculator.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:Add xmlns:ns0="http://tempuri.org/"><ns0:intA>15</ns0:intA><ns0:intB>20</ns0:intB></ns0:Add></soap-env:Body></soap-env:Envelope>
+urllib3.connectionpool - DEBUG - http://www.dneonline.com:80 "POST /calculator.asmx HTTP/1.1" 200 326
+zeep.transports - DEBUG - HTTP Response from http://www.dneonline.com/calculator.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>35</AddResult></AddResponse></soap:Body></soap:Envelope>
+zeep.transports - DEBUG - HTTP Post to http://www.dneonline.com/calculator.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:Subtract xmlns:ns0="http://tempuri.org/"><ns0:intA>15</ns0:intA><ns0:intB>20</ns0:intB></ns0:Subtract></soap-env:Body></soap-env:Envelope>
+urllib3.connectionpool - DEBUG - http://www.dneonline.com:80 "POST /calculator.asmx HTTP/1.1" 200 346
+zeep.transports - DEBUG - HTTP Response from http://www.dneonline.com/calculator.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>-5</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+zeep.transports - DEBUG - HTTP Post to http://www.dneonline.com/calculator.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:Multiply xmlns:ns0="http://tempuri.org/"><ns0:intA>15</ns0:intA><ns0:intB>20</ns0:intB></ns0:Multiply></soap-env:Body></soap-env:Envelope>
+urllib3.connectionpool - DEBUG - http://www.dneonline.com:80 "POST /calculator.asmx HTTP/1.1" 200 347
+zeep.transports - DEBUG - HTTP Response from http://www.dneonline.com/calculator.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><MultiplyResponse xmlns="http://tempuri.org/"><MultiplyResult>300</MultiplyResult></MultiplyResponse></soap:Body></soap:Envelope>
+zeep.transports - DEBUG - HTTP Post to http://www.dneonline.com/calculator.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:Divide xmlns:ns0="http://tempuri.org/"><ns0:intA>15</ns0:intA><ns0:intB>20</ns0:intB></ns0:Divide></soap-env:Body></soap-env:Envelope>
+urllib3.connectionpool - DEBUG - http://www.dneonline.com:80 "POST /calculator.asmx HTTP/1.1" 200 337
+zeep.transports - DEBUG - HTTP Response from http://www.dneonline.com/calculator.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><DivideResponse xmlns="http://tempuri.org/"><DivideResult>1</DivideResult></DivideResponse></soap:Body></soap:Envelope>
