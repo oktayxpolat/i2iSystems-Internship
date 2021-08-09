@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+
+    <!---->
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="RollingAppender" fileName="logs/current.log"
+                     filePattern="logs/%d{yyyy-MM-dd HH:mm:ss}%i.zip">
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="25"/>
+        </RollingFile>
+		
+		<File name="FileAppender" fileName="all.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+	    <Logger name="demo" level="DEBUG" additivity="false">
+            <appender-ref ref="ConsoleAppender" level="DEBUG"/>
+        </Logger>
+		<Logger name="demo2" level="DEBUG" additivity="false">
+            <appender-ref ref="FileAppender" level="DEBUG"/>
+        </Logger>
+	<Root level="DEBUG">
+            <AppenderRef ref="RollingAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>
