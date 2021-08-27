@@ -13,3 +13,5 @@ Projects done during i2i Systems internship.
 * Go
 * Uml Use Case & Activity Diagram
 * Dynamic Programming
+* Time Complexity
+* Shell Scripting
