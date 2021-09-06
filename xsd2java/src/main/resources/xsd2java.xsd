@@ -1,0 +1,42 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="EMPLOYEES">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="EMPLOYEE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="EMPLOYEE_ID"/>
+              <xs:element type="xs:string" name="FIRST_NAME"/>
+              <xs:element type="xs:string" name="LAST_NAME"/>
+              <xs:element type="xs:string" name="EMAIL"/>
+              <xs:element type="xs:string" name="PHONE_NUMBER"/>
+              <xs:element type="xs:string" name="HIRE_DATE"/>
+              <xs:element type="xs:string" name="JOB_ID"/>
+              <xs:element type="xs:short" name="SALARY"/>
+              <xs:element type="xs:string" name="COMMISSION_PCT"/>
+              <xs:element type="xs:string" name="MANAGER_ID"/>
+              <xs:element type="xs:byte" name="DEPARTMENT_ID"/>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:key name="PK_EMPLOYEE_ID">
+            <xs:selector xpath="./EMPLOYEE"/>
+            <xs:field xpath="EMPLOYEE_ID"/>
+          </xs:key>
+        </xs:element>
+        <xs:element name="DEPARTMENT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="DEPARTMENT_ID"/>
+              <xs:element type="xs:string" name="DEPARTMENT_NAME"/>
+              <xs:element type="xs:string" name="DEPARTMENT"/>
+            </xs:sequence>
+          </xs:complexType>
+          <xs:keyref name="FK_DEPARTMENT_ID" refer="PK_EMPLOYEE_ID">
+            <xs:selector xpath="./DEPARTMENT"/>
+            <xs:field xpath="DEPARTMENT_ID"/>
+          </xs:keyref>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
